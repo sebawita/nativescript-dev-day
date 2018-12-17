@@ -2938,7 +2938,8 @@ button {
 }
 
 .lgx-register .active {
-	background: rgba(25, 118, 210, 0.85);
+	/* background: rgba(25, 118, 210, 0.85); */
+	background: #ba4a46;
 }
 
 .lgx-register .active .single-top .price {
