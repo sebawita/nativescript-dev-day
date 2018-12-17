@@ -17,15 +17,14 @@ title: NativeScript Developer Day
 email: sebastian.witalec@progress.com
 description: >- # this means to ignore newlines until "baseurl:"
   NativeScript Developer Day is a community-focused event sponsored by Progress Software to discuss
-  all things related to JavaScript and mobility including topics like mobile web development,
-  mobile development, the Internet of Things, serverless and artificial intelligence.
+  all things related to mobile app development for iOS and Android with Angular, Vue.js, TypeScript, and JavaScript.
 short_description: >-
-  NativeScript Developer Day is an event focused on JavaScript and mobility including topics like mobile web dev, mobile app dev, IoT, serverless and AI.
-keywords: event,conference,javascript,js,mobile web development,mobile app development,mobile web dev,mobile app dev,serverless,IoT,internet of things,artificial intelligence,AI,virtual reality,VR,boston
+  NativeScript Developer Day is an event focused on cross-platform app development with JavaScript.
+keywords: event,conference,javascript,js,mobile app development,mobile web dev,mobile app dev,serverless,amsterdam,ios,android,typescript,nativescript
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://NativeScriptDevDay.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: telerik
-github_username:  telerik
+twitter_username: nativescript
+github_username:  nativescript
 
 # Build settings
 markdown: kramdown
