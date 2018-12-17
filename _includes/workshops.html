@@ -1,0 +1,76 @@
+<!--WORKSHOPS-->
+<section>
+    <div id="lgx-workshops" class="lgx-schedule">
+        <div class="lgx-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="lgx-heading-area">
+                            <h2 class="lgx-heading">
+                                <span class="back-heading"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                <span class="heading">Workshops</span>
+                            </h2>
+                            <p class="text">
+                                Full day. Hands on Workshops.<br>
+                                Great instructors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <!-- TODO: Style the title and the date -->
+                        <div class="text-center">
+                            <h2>11 April, 2019</h3>
+                        </div>
+
+                        <div class="lgx-tab">
+                            <div class="tab-content lgx-tab-content text-center">
+                                <!-- Workshops - Day1 -->
+                                <div id="workshops" class="tab-pane fade in active">
+                                    <!-- session -->
+                                    {% assign day1 = site.pages | where: "layout", "session" | where: "day", "1"
+                                    | sort: "session" %}
+                                    {% for sessions in day1 %}
+                                    {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name",
+                                    sessions.speaker-last-name %}
+                                    {% assign speaker = speakers | first %}
+                                    <div class="lgx-single-tab">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-2">
+                                                <div class="time-area">
+                                                    {% assign time = sessions.start-time | split: ' ' %}
+                                                    <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-3">
+                                                <div class="author">
+                                                    <a class="author-img" href="/speakers/{{speaker.title | slugify }}"><img
+                                                            src="/assets/img/speakers/{{ speaker.photo }}" alt="{{speaker.title}}" /></a>
+                                                    <div class="author-info">
+                                                        <h5 class="name"><a href="/speakers/{{speaker.title | slugify }}">{{speaker.title}}</a></h5>
+                                                        <p class="author-title">{{speaker.short-job-title}}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-7">
+                                                <div class="schedule-info">
+                                                    <h3 class="title"><a href="{{ sessions.url }}">{{sessions.title}}</a></h3>
+                                                    <p>{{sessions.short-description}}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //.CONTAINER -->
+        </div>
+        <!-- //.INNER -->
+    </div>
+</section>
+<!--SCHEDULE END-->

@@ -1,0 +1,110 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+{% include head.html %}
+
+<body class="home">
+
+    <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+    <div class="lgx-container ">
+        <!-- ***  ADD YOUR SITE CONTENT HERE *** -->
+
+        {% include header.html %}
+
+        <!--BANNER-->
+        <section>
+            <div class="lgx-banner lgx-banner-typed">
+                <div class="lgx-banner-style">
+                    <div class="lgx-inner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="banner-info">
+                                        <div class="lgx-countdown-area">
+                                            <!-- Date Format :"Y/m/d" || For Example: 1017/10/5  -->
+                                            <div id="lgx-countdown" data-date="2019/4/11"></div>
+                                        </div>
+                                        <h2 class="title"><span id="lgx-typed-string">NativeScript Developer Day <span>2019</span></span></h2>
+                                        <h3 class="date"><span>April 11-12 </span>2019, Amsterdam</h3>
+                                        <div class="lgx-heading-area" style="text-align:left">
+                                            <p class="text" style="color:white;padding:0;margin-top:20px">
+                                                NativeScript Developer Day is a two-day, single-track, developer event
+                                                focused on NativeScript.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//.ROW-->
+                        </div>
+                        <!-- //.CONTAINER -->
+                    </div>
+                    <!-- //.INNER -->
+                </div>
+            </div>
+        </section>
+        <!--BANNER END-->
+
+        {% include speakers.html %}
+
+        {% include sponsors.html %}
+
+        {% include travel.html %}
+
+        {% include register.html %}
+
+        <!--GOOGLE MAP-->
+        <div class="innerpage-section">
+            <div class="lgxmapcanvas map-canvas-default" id="map_canvas"> </div>
+        </div>
+        <!--GOOGLE MAP END-->
+
+        {% include footer.html %}
+
+    </div>
+    <!--//.LGX SITE CONTAINER-->
+    <!-- *** ADD YOUR SITE SCRIPT HERE *** -->
+    <!-- JQUERY  -->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!-- BOOTSTRAP JS  -->
+    <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+
+
+    <script src="assets/libs/jquery.smooth-scroll.js"></script>
+
+    <!-- SKILLS SCRIPT  -->
+    <script src="assets/libs/jquery.validate.js"></script>
+
+    <!-- if load google maps then load this api, change api key as it may expire for limit cross as this is provided with any theme -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbKIiqWHLEdHMgvYLWc6KxL7poNhIBCTo"></script>
+
+    <!-- CUSTOM GOOGLE MAP -->
+    <script type="text/javascript" src="assets/libs/gmap/jquery.googlemap.js"></script>
+
+    <!-- adding magnific popup js library -->
+    <script type="text/javascript" src="assets/libs/maginificpopup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Owl Carousel  -->
+    <script src="assets/libs/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- COUNTDOWN   -->
+    <script src="assets/libs/countdown.js"></script>
+
+    <!-- SMOTH SCROLL -->
+    <script src="assets/libs/jquery.smooth-scroll.min.js"></script>
+    <script src="assets/libs/jquery.easing.min.js"></script>
+
+    <!-- type js -->
+    <script src="assets/libs/typed/typed.min.js"></script>
+
+    <!-- CUSTOM SCRIPT  -->
+    <script src="assets/js/custom.script.js"></script>
+
+
+</body>
+
+</html>

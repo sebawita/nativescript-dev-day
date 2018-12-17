@@ -1,0 +1,98 @@
+<!--SPEAKERS-->
+<section>
+    <div id="lgx-speakers" class="lgx-speakers">
+        <div class="lgx-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="lgx-heading-area">
+                            <h2 class="lgx-heading">
+                                <span class="back-heading"><i class="fa fa-microphone" aria-hidden="true"></i></span>
+                                <span class="heading">Speakers</span>
+                            </h2>
+                            <p class="text">
+                                We've lined up some amazing speakers!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--//.ROW-->
+                <div class="row">
+                    <!-- {% assign keynotes = site.pages | where: "layout", "speaker" | where: "keynote", "true" | sort: "last-name" %}
+                    {% for speaker in keynotes %}
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="lgx-single-speaker">
+                            <figure>
+                                <a class="profile-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}" alt="speaker"/></a>
+                                <figcaption>
+                                    {% if speaker.twitter %}<a class="sp-tw" href="https://twitter.com/{{speaker.twitter}}"><i class="fa fa-twitter"></i></a>{% endif %}
+                                    {% if speaker.github %}<a class="sp-gh" href="https://github.com/{{speaker.github}}"><i class="fa fa-github"></i></a>{% endif %}
+                                    {% if speaker.website %}<a class="sp-link" href="{{speaker.website}}"><i class="fa fa-link"></i></a>{% endif %}
+                                </figcaption>
+                            </figure>
+                            <div class="speaker-info">
+                                <h3 class="title"><a href="/speakers/{{speaker.title | slugify }}">{{ speaker.title }}</a></h3>
+                                <h4 class="subtitle">{{ speaker.job-title }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <br style="clear: both;"> -->
+                    {% assign speakers = site.pages
+                    | where: "layout", "speaker"
+                    | where_exp: "item", "item.keynote != true"
+                    | where_exp: "item", "item.hide != true"
+                    | sort: "last-name" %}
+                    {% for speaker in speakers %}
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="lgx-single-speaker lgx-single-speaker-sm">
+                            <figure>
+                                <a class="profile-img" href="/speakers/{{speaker.title | slugify }}"><img src="/assets/img/speakers/{{ speaker.photo }}"
+                                        alt="speaker" /></a>
+                                <figcaption>
+                                    {% if speaker.twitter %}<a class="sp-tw" href="https://twitter.com/{{speaker.twitter}}"><i
+                                            class="fa fa-twitter"></i></a>{% endif %}
+                                    {% if speaker.github %}<a class="sp-gh" href="https://github.com/{{speaker.github}}"><i
+                                            class="fa fa-github"></i></a>{% endif %}
+                                    {% if speaker.website %}<a class="sp-link" href="{{speaker.website}}"><i class="fa fa-link"></i></a>{%
+                                    endif %}
+                                </figcaption>
+                            </figure>
+                            <div class="speaker-info">
+                                <h3 class="title"><a href="/speakers/{{speaker.title | slugify }}">{{ speaker.title }}</a></h3>
+                                <h4 class="subtitle">{{ speaker.job-title }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="lgx-heading-area">
+                            <h2 class="lgx-heading">
+                                <span class="back-heading"><i class="fa fa-microphone" aria-hidden="true"></i></span>
+                                <span class="heading">Call for Papers</span>
+                            </h2>
+                            <p class="text">
+                                Would you like to become one of the speakers? <br>
+                                We will cover your flights and two nights at the speaker hotel. <br><br>
+
+                                <a class="lgx-btn lgx-btn-big" href="https://docs.google.com/forms/d/e/1FAIpQLSf4EP8H5WPY8hHyui7w8EbxzJQeFLkCyevsUO1gvEWHLKirUg/viewform?usp=sf_link"><span>Become
+                                        A Speaker</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--//.ROW-->
+                <!--<div class="speakers-btn-area">
+                    <a class="lgx-btn lgx-btn-big" href="blog-list.html"><span>More Speakers</span></a>
+                </div>-->
+            </div>
+            <!-- //.CONTAINER -->
+        </div>
+        <!-- //.INNER -->
+    </div>
+</section>
+<!--SPEAKERS END-->

@@ -1,0 +1,21 @@
+- name: "Nationale Nederlanden"
+  photo: "nationale-nederlanden-logo.png"
+  sponsor_level: 1
+  url: "https://www.nn.nl/"
+# - name: "nStudio"
+#   photo: "nstudio-logo.png"
+#   sponsor_level: 2
+#   url: "https://nstudio.io"
+
+# - name: "neocles"
+#   photo: "neocles-logo.jpg"
+#   sponsor_level: 2
+#   url: "https://www.neocles.com/"
+# - name: "moltin"
+#   photo: "moltin-logo.png"
+#   sponsor_level: 2
+#   url: "https://moltin.com/"
+# - name: "thread"
+#   photo: "thread-logo.png"
+#   sponsor_level: 2
+#   url: "https://www.threadlearning.com/"
