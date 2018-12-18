@@ -1,11 +1,13 @@
 {
-	"xml.fileAssociations": [
-		{
-			"systemId": "c:\\Users\\rdlau\\Documents\\GitHub\\nativescript-dev-day\\schema\\tns.xsd",
-			"pattern": "**/**/*.xml"
-		}
-	],
-	"files.exclude": {
-		"schema": true
-	}
+  "xml.fileAssociations": [
+    {
+      "systemId": "c:\\Users\\rdlau\\Documents\\GitHub\\nativescript-dev-day\\schema\\tns.xsd",
+      "pattern": "**/**/*.xml"
+    }
+  ],
+  "files.exclude": {
+    "schema": true
+  },
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4
 }
