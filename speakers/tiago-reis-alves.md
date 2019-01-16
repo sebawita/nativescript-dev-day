@@ -4,7 +4,7 @@ title: Tiago Reis Alves
 last-name: Alves
 job-title: "Mobile Developer"
 short-job-title: "Mobile Developer"
-company: ""
+company: "irc.com"
 photo: "tiago-reis-alves.jpeg"
 twitter: "tiagoreisalves"
 github: "tralves"
