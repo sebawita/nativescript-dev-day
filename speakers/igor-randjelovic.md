@@ -2,8 +2,8 @@
 layout: speaker
 title: Igor Randjelovic
 last-name: Randjelovic
-job-title: "Progress Developer Expert"
-short-job-title: "Progress Developer Expert"
+job-title: "Creator of NativeScript-Vue"
+short-job-title: "Creator of NativeScript-Vue"
 company: ""
 photo: "igor-randjelovic.jpeg"
 twitter: "igor_randj"
