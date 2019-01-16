@@ -2,11 +2,14 @@
 layout: speaker
 title: Stanimira Vlaeva
 last-name: Vlaeva
-job-title: "Software Engineer at Progress"
+job-title: "Software Engineer"
 short-job-title: "Software Engineer"
+company: "Progress"
 photo: "stanimira-vlaeva.jpg"
 twitter: "StanimiraVlaeva"
 github: "sis0k0"
+linkedin: "sis0k0"
+website: "https://www.nativescript.org/"
 hide: false
 ---
 

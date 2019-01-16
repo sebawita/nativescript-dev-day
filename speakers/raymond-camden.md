@@ -5,9 +5,12 @@ last-name: Camden
 # job-title: "Father of Dragons, Defender of the Four Reals, Jedi Master, Galaga High Score Achiever"
 job-title: "Developer Experience Engineer"
 short-job-title: "Developer Experience Engineer"
+company: ""
 photo: "raymond-camden.jpg"
 twitter: "raymondcamden"
 github: ""
+linkedin: ""
+website: ""
 hide: false
 ---
 

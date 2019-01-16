@@ -2,11 +2,14 @@
 layout: speaker
 title: Sebastian Witalec
 last-name: Witalec
-job-title: "Developer Advocate at Progress"
+job-title: "Developer Advocate"
 short-job-title: "Developer Advocate"
+company: "Progress"
 photo: "sebastian-witalec.jpg"
 twitter: "sebawita"
 github: "sebawita"
+linkedin: "sebawita"
+website: "https://www.nativescript.org/"
 hide: false
 ---
 

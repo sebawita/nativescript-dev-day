@@ -60,7 +60,11 @@
               <div class="col-sm-7 col-xs-12">
                 <div class="speakers-content">
                   <h1 class="title">{{ page.title }}</h1>
+                  {% if page.company and page.company != "" %}
+                  <h3 class="subtitle">{{ page.job-title }} at {{ page.company }}</h3>
+                  {% else %}
                   <h3 class="subtitle">{{ page.job-title }}</h3>
+                  {% endif %}
                   <div class="social">
                     <ul class="list-inline">
                       {% if page.twitter and page.twitter != "" %}

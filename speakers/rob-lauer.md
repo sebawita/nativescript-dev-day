@@ -2,11 +2,14 @@
 layout: speaker
 title: Rob Lauer
 last-name: Lauer
-job-title: "DevRel Manager at Progress"
+job-title: "DevRel Manager"
 short-job-title: "DevRel Manager"
+company: "Progress"
 photo: "rob-lauer.jpg"
 twitter: "RobLauer"
 github: "rdlauer"
+linkedin: "rdlauer"
+website: "https://www.nativescript.org/"
 hide: false
 ---
 

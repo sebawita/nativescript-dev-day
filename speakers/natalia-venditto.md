@@ -2,11 +2,14 @@
 layout: speaker
 title: Natalia Venditto
 last-name: Venditto
-job-title: "Frontend Developer at Netcentric"
+job-title: "Senior Frontend Developer"
 short-job-title: "Sr. Frontend Developer"
+company: "Netcentric"
 photo: "natalia-venditto.jpg"
 twitter: "AnfibiaCreativa"
 github: ""
+linkedin: ""
+website: ""
 hide: false
 ---
 

@@ -2,11 +2,14 @@
 layout: speaker
 title: Jen Looper
 last-name: Looper
-job-title: "Developer Advocate at Progress"
+job-title: "Developer Advocate"
 short-job-title: "Developer Advocate"
+company: "Progress"
 photo: "jen-looper.jpeg"
 twitter: "jenlooper"
 github: "jenlooper"
+linkedin: "jen-looper-3442413"
+website: "https://www.nativescript.org/"
 hide: false
 ---
 

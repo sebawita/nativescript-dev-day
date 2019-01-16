@@ -2,11 +2,14 @@
 layout: speaker
 title: Bart van den Burg
 last-name: Burg
-job-title: "Lead Developer at Neocles"
+job-title: "Lead Developer"
 short-job-title: "Lead Developer"
+company: "Neocles"
 photo: "bart-van-den-burg.png"
 twitter: "BartBurgov"
 github: "burgov"
+linkedin: "bartvandenburg"
+website: "http://neocles.io/"
 hide: false
 ---
 

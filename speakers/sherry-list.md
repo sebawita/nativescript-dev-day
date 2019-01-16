@@ -2,11 +2,14 @@
 layout: speaker
 title: Sherry List
 last-name: List
-job-title: "Developer Advocate at Microsoft"
+job-title: "Developer Advocate"
 short-job-title: "Azure Developer Advocate"
+company: "Microsoft"
 photo: "sherry-list.jpg"
 twitter: "sherrrylst"
 github: ""
+linkedin: ""
+website: ""
 hide: false
 ---
 

@@ -3,10 +3,13 @@ layout: speaker
 title: Igor Randjelovic
 last-name: Randjelovic
 job-title: "Progress Developer Expert"
-short-job-title: "Progress Developer Expertr"
+short-job-title: "Progress Developer Expert"
+company: ""
 photo: "igor-randjelovic.jpeg"
 twitter: "igor_randj"
 github: "rigor789"
+linkedin: "igor-randjelovic-83041488"
+website: ""
 hide: false
 ---
 

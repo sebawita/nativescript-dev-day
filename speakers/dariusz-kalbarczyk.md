@@ -2,11 +2,14 @@
 layout: speaker
 title: Dariusz Kalbarczyk
 last-name: Kalbarczyk
-job-title: "Developer Advocate at 7N"
+job-title: "Developer Advocate"
 short-job-title: "Developer Advocate"
+company: "7N"
 photo: "dariusz-kalbarczyk.jpg"
 twitter: "ngKalbarczyk"
 github: ""
+linkedin: "ngkalbarczyk"
+website: ""
 hide: false
 ---
 
