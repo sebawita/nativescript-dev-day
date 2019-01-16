@@ -8,9 +8,9 @@ short-job-title: "Developer Experience Engineer"
 company: ""
 photo: "raymond-camden.jpg"
 twitter: "raymondcamden"
-github: ""
-linkedin: ""
-website: ""
+github: "cfjedimaster"
+linkedin: "raymondcamden"
+website: "https://www.raymondcamden.com/"
 hide: false
 ---
 
