@@ -7,9 +7,9 @@ short-job-title: "Sr. Frontend Developer"
 company: "Netcentric"
 photo: "natalia-venditto.jpg"
 twitter: "AnfibiaCreativa"
-github: ""
-linkedin: ""
-website: ""
+github: "anfibiacreativa"
+linkedin: "anfibiacreativa"
+website: "www.netcentric.biz "
 hide: false
 ---
 
