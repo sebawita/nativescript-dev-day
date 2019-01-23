@@ -13,4 +13,4 @@ website: "https://nativescripting.com/"
 hide: false
 ---
 
-Alex Ziskind consistently strives to be on the cutting edge of technology, employs the latest web and mobile techniques and integrates them with the cloud. For the last 16 years, Alex has been developing software solutions for the enterprise as well as small startups. In the last 8 years, his Washington DC based company, Nuvious, has been involved in architecting and implementing cloud solutions on an international scale. Since 2015, Alex has been recognized as a Progress Developer Expert due to his community involvement with NativeScript. You can connect with Alex on Twitter @digitalix.
+Alex is a NativeScript Developer Expert and owner of a Washington DC based software firm, Nuvious, since 2010. He is also a partner with nStudio where he mentors budding NativeScript developers. Alex also really loves to spread knowledge by teaching and training teams of developers, whether it’s in person on through video courses on NativeScripting.com. Connect with Alex on Twitter @digitalix
