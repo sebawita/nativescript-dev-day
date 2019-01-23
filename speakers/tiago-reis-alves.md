@@ -1,7 +1,7 @@
 ---
 layout: speaker
 title: Tiago Reis Alves
-last-name: Alves
+last-name: Reis-Alves
 job-title: "Mobile Developer"
 short-job-title: "Mobile Developer"
 company: "irc.com"

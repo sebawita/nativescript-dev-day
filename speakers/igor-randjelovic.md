@@ -3,7 +3,7 @@ layout: speaker
 title: Igor Randjelovic
 last-name: Randjelovic
 job-title: "Creator of NativeScript-Vue"
-short-job-title: "Creator of NativeScript-Vue"
+short-job-title: "{N}-Vue Creator"
 company: ""
 photo: "igor-randjelovic.jpeg"
 twitter: "igor_randj"

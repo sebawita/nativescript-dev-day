@@ -5,8 +5,6 @@ last-name: Break
 job-title: "Mr Cappucciono"
 short-job-title: "Get energised"
 photo: "coffee.png"
-twitter: "coffee"
-github: "coffee"
 hide: true
 ---
 
