@@ -1,12 +1,11 @@
 ---
 layout: session
-title: "Lunch"
-speaker-last-name: Break
+title: "Lunch Break"
+speaker-last-name: Lunch
 day: 2
-track: 1
-session: 7
-start-time: "1:00 PM"
+start-time: "13:00"
 short-description: "After a whole morning of learning, we bet you'll need a bit to take it all in. You'll want to add some food to a plate, sit with your friends and talk about the wondrous things you've heard today."
+break: true
 ---
 
 After a whole morning of learning, we bet you'll need a bit to take it all in. You'll want to add some food to a plate, sit with your friends and talk about the wondrous things you've heard today.
