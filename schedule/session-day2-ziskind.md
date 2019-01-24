@@ -2,6 +2,7 @@
 layout: session
 title: "Securing NativeScript Apps"
 speaker-last-name: Ziskind
+type: Talk
 day: 2
 start-time: "10:40"
 short-description: "How to build secure apps in NativeScript."

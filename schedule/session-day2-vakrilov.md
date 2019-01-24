@@ -2,6 +2,7 @@
 layout: session
 title: "Application State Management for NativeScript Apps"
 speaker-last-name: Vakrilov
+type: Talk
 day: 2
 start-time: "17:15"
 short-description: "The ins and outs of Application State Management."

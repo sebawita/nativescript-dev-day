@@ -2,6 +2,7 @@
 layout: session
 title: "KiwiIRC mobile app. A lov(u)e story."
 speaker-last-name: Reis-Alves
+type: Talk
 day: 2
 start-time: "14:25"
 short-description: "A success story of using NativeScript-Vue in a real-world project."

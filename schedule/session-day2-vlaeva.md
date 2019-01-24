@@ -2,6 +2,7 @@
 layout: session
 title: "Embedding V8 in the real world"
 speaker-last-name: Vlaeva
+type: Talk
 day: 2
 start-time: "16:00"
 short-description: "Learn about the challenges the {N} team faced embedding V8."

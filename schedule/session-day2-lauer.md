@@ -2,6 +2,7 @@
 layout: session
 title: "Three apps. One codebase. No code?"
 speaker-last-name: Lauer
+type: Talk
 day: 2
 start-time: "12:45"
 short-description: "Let's see how a new product from Progress can enable developer-approved visual drag-and-drop design of both native mobile apps and web apps at the same time, with the same codebase."

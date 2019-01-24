@@ -2,6 +2,7 @@
 layout: session
 title: "Build Once Deploy to Many"
 speaker-last-name: Burg
+type: Talk
 day: 2
 start-time: "16:50"
 short-description: "Deliver multiple apps from single code base."

@@ -2,6 +2,7 @@
 layout: session
 title: "NativeScript on Fire(base)!"
 speaker-last-name: Verbruggen
+type: Talk
 day: 2
 start-time: "11:55"
 short-description: "Learn all about the NativeScript Firebase plugin."

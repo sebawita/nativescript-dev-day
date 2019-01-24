@@ -2,6 +2,7 @@
 layout: session
 title: "From Vue to NS-Vue"
 speaker-last-name: Camden
+type: Talk
 day: 2
 start-time: "11:30"
 short-description: "The good and the surprising of NativeScript Vue."

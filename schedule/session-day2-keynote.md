@@ -2,6 +2,7 @@
 layout: session
 title: "Welcome Keynote"
 speaker-last-name: Witalec
+type: Talk
 day: 2
 start-time: "09:30"
 short-description: "NativeScript has you."

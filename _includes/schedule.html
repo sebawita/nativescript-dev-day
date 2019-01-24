@@ -38,7 +38,7 @@
                                     session.speaker-last-name %}
                                     {% assign speaker = speakers | first %}
 
-                                    {% if session.break %}
+                                    {% if session.type == 'Break' %}
                                     <div class="lgx-single-tab" style="background-color:#2e2841; color:white">
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-2">

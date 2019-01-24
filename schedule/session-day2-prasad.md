@@ -2,6 +2,7 @@
 layout: session
 title: "Road to mastering NativeScript UI"
 speaker-last-name: Prasad
+type: Talk
 day: 2
 start-time: "10:15"
 short-description: "Your guide to writing robust, responsive and performant UI for NativeScript."
