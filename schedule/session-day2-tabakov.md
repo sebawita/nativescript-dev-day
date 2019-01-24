@@ -1,6 +1,6 @@
 ---
 layout: session
-title: "Product Managers view of NativeScript roadmap"
+title: "Product Manager's View of NativeScript Roadmap"
 speaker-last-name: Tabakov
 type: Talk
 day: 2

@@ -1,6 +1,6 @@
 ---
 layout: session
-title: "Embedding V8 in the real world"
+title: "Embedding V8 in the Real World"
 speaker-last-name: Vlaeva
 type: Talk
 day: 2

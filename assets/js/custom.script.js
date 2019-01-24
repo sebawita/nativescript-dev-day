@@ -231,7 +231,7 @@
          ========================================================================== */
         if ($('#lgx-typed-string').length) {
             $('#lgx-typed-string').typed({
-                strings: ["NativeScript Developer Day", "Angular", "Vue.js", "Cross-Platform App Dev"],
+                strings: ["NativeScript Developer Day", "Angular", "Vue.js", "Web/Mobile Code Sharing", "NativeScript UI", "Cross-Platform App Dev", "App Security", "Cognitive Services"],
                 // typing speed
                 typeSpeed: 10,
                 // time before typing starts

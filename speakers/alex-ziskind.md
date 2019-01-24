@@ -2,8 +2,8 @@
 layout: speaker
 title: Alex Ziskind
 last-name: Ziskind
-job-title: "NativeScript trainer"
-short-job-title: "NativeScript trainer"
+job-title: "NativeScript Trainer"
+short-job-title: "NativeScript Trainer"
 company: "NativeScripting"
 photo: "alex-ziskind.png"
 twitter: "digitalix"

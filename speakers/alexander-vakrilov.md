@@ -2,8 +2,8 @@
 layout: speaker
 title: Alexander Vakrilov
 last-name: Vakrilov
-job-title: "Team Lead"
-short-job-title: "Team Lead"
+job-title: "{N} Core Team Lead"
+short-job-title: "{N} Core Team Lead"
 company: "Progress"
 photo: "alexander-vakrilov.png"
 twitter: "ufsa"
