@@ -2196,6 +2196,16 @@ button {
 	text-transform: uppercase;
 }
 
+.lgx-speaker-single .speakers-content .talk-title {
+	font-size: 21px;
+	line-height: 31px;
+	font-size: 2.1rem;
+	line-height: 3.15rem;
+	font-weight: 600;
+	margin: 0;
+	text-transform: uppercase;
+}
+
 .lgx-speaker-single .speakers-content .subtitle {
 	font-family: 'Lora', serif;
 	font-size: 26px;
@@ -4590,6 +4600,9 @@ button {
 	}
 	.lgx-speaker-single .speakers-content .title {
 		font-size: 2.6rem;
+	}
+	.lgx-speaker-single .speakers-content .talk-title {
+		font-size: 1.3rem;
 	}
 	.lgx-speaker-single .speakers-content .subtitle {
 		font-size: 1.6rem;

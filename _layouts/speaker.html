@@ -1,8 +1,5 @@
 {% assign speaker = site.data.speakers | where: "name", "" %}
 
-{% assign sessions = site.pages | where: "layout", "session" | where: "speaker-last-name", page.last-name %}
-{% assign session = sessions | first %}
-
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -90,9 +87,15 @@
                                     </div>
                                     {{ content }}
 
-                                    <h1 class="title">
-                                        <a href="{{ session.url }}">{{session.title}}</a>
-                                    </h1>
+
+                                    {% assign sessions = site.pages | where: "layout", "session" | where:
+                                    "speaker-last-name", page.last-name %}
+                                    {% for session in sessions %}
+
+                                    <h3 class="talk-title">
+                                        <a href="{{ session.url }}">{{session.type}}: {{session.title}}</a>
+                                    </h3>
+                                    {% endfor %}
                                 </div>
                             </div>
                         </div>
