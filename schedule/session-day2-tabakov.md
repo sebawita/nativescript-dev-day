@@ -4,7 +4,7 @@ title: "Product Manager's View of NativeScript Roadmap"
 speaker-last-name: Tabakov
 type: Talk
 day: 2
-start-time: "10:00"
+start-time: "09:45"
 short-description: "The future of NativeScript"
 ---
 
