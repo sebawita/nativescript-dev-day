@@ -1,11 +1,11 @@
 ---
 layout: session
-title: "Talk Title: coming soon"
+title: "TBD"
 speaker-last-name: Kalbarczyk
 type: Talk
 day: 2
 start-time: "14:50"
-short-description: "Short Description: coming soon."
+short-description: "Coming soon!"
 ---
 
-Long Description: coming soon
+More information coming soon!

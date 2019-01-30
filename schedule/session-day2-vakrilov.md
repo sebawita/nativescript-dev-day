@@ -5,7 +5,7 @@ speaker-last-name: Vakrilov
 type: Talk
 day: 2
 start-time: "17:15"
-short-description: "The ins and outs of Application State Management."
+short-description: "Let's discuss what application state actually consists of, and go trough different state-management approaches you can use for your mobile app."
 ---
 
-Will discuss what application state actually consists of and will go trough different state-management approaches you can use for you mobile application.
+Let's discuss what application state *actually* consists of, and go trough different state-management approaches you can use for your mobile app.

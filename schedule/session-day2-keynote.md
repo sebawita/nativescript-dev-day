@@ -1,13 +1,11 @@
 ---
 layout: session
-title: "Welcome Keynote"
+title: "Welcome to NativeScript Developer Day!"
 speaker-last-name: Witalec
 type: Talk
 day: 2
 start-time: "09:30"
-short-description: "NativeScript has you."
+short-description: "Join us for this (brief) keynote as we introduce you to our day full of informative NativeScript sessions."
 ---
 
-Come join our keynote speakers as they present engaging material in a compelling way. You'll be on the edge of your seat at the presentation slides advance one by one. You won't believe how it ends!
-
-Don't miss a single breathless explanation of this award winning presentation. You'll want to remember where you were as this riveting expository unfolds. Make sure you have your laptop fully charged so you can live blog the entire experience using real time push notification tools.
+Join us for this (brief) keynote as we introduce you to our day full of informative NativeScript sessions.
