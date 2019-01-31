@@ -8,7 +8,7 @@ All attendees, speakers, sponsors and volunteers at our conference are required 
 
 ## Contact Information
 
-If you need to report a violation please inform any of the event staff on site or contact Brian Rinaldi at (857) 919-7630 or brian.rinaldi@progress.com.
+If you need to report a violation please inform any of the event staff on site or contact Sebastian Witalec at sebastian.witalec@progress.com.
 
 ## The Quick Version
 
