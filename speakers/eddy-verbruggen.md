@@ -9,7 +9,7 @@ photo: "eddy-verbruggen.jpg"
 twitter: "eddyverbruggen"
 github: "eddyverbruggen"
 linkedin: "eddy-verbruggen-7396b81"
-website: ""
+website: "https://combidesk.com/"
 hide: false
 ---
 
