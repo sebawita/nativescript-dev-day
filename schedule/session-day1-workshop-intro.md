@@ -4,8 +4,9 @@ title: "Intro to Angular NativeScript"
 speaker-last-name: Witalec
 type: Workshop
 day: 1
-start-time: "9:00 AM"
+start-time: "09:00 17:00"
 short-description: "Learn what NativeScript is, how it works, and how to use the framework to build iOS and Android apps."
+index: 1.1
 ---
 
 Join our instructors for an all-day workshop on NativeScript. In this workshop you’ll learn what NativeScript is, how it works, and how to use the framework to build iOS and Android apps. Then, you’ll dive in and use NativeScript to build an iOS and Android app from scratch. If haven’t yet learned Angular, you’ll learn fundamental concepts while we go along.

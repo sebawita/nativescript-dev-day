@@ -30,16 +30,30 @@
                                 <div id="workshops" class="tab-pane fade in active">
                                     <!-- session -->
                                     {% assign day1 = site.pages | where: "layout", "session" | where: "day", "1"
-                                    | sort: "session" %}
-                                    {% for sessions in day1 %}
+                                    | sort: "index" %}
+                                    {% for session in day1 %}
                                     {% assign speakers = site.pages | where: "layout", "speaker" | where: "last-name",
-                                    sessions.speaker-last-name %}
+                                    session.speaker-last-name %}
                                     {% assign speaker = speakers | first %}
+
+                                    {% if session.type == 'Placeholder' %}
+                                    <div class="lgx-single-tab" style="background-color:#2e2841; color:white">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-2">
+                                            </div>
+
+                                            <div class="col-xs-12 col-sm-7">
+                                                <h3 class="title">{{session.title}}</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% else %}
+
                                     <div class="lgx-single-tab">
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-2">
                                                 <div class="time-area">
-                                                    {% assign time = sessions.start-time | split: ' ' %}
+                                                    {% assign time = session.start-time | split: ' ' %}
                                                     <h4 class="time">{{ time | first }} <span>{{ time | last }}</span></h4>
                                                 </div>
                                             </div>
@@ -55,12 +69,13 @@
                                             </div>
                                             <div class="col-xs-12 col-sm-7">
                                                 <div class="schedule-info">
-                                                    <h3 class="title"><a href="{{ sessions.url }}">{{sessions.title}}</a></h3>
-                                                    <p>{{sessions.short-description}}</p>
+                                                    <h3 class="title"><a href="{{ session.url }}">{{session.title}}</a></h3>
+                                                    <p>{{session.short-description}}</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    {% endif %}
                                     {% endfor %}
                                 </div>
                             </div>

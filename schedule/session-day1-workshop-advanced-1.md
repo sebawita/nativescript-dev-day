@@ -4,8 +4,9 @@ title: "NativeScript UI Performance (Optimizations)"
 speaker-last-name: Prasad
 type: Workshop
 day: 1
-start-time: "09:00"
+start-time: "09:00 12:30"
 short-description: "Learn how to write UI for NativeScript applications that are robust, responsive and performant."
+index: 2.1
 ---
 
 This workshop focuses on showing you the common approaches that new developers take which

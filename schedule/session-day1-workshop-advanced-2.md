@@ -4,8 +4,9 @@ title: "Securing NativeScript apps"
 speaker-last-name: Ziskind
 type: Workshop
 day: 1
-start-time: "13:00"
+start-time: "13:30 17:00"
 short-description: "Learn how to bullet proof your NativeScript applications against malicious attacks."
+index: 2.2
 ---
 
 This workshop focuses on showing you different ways of securing the code on your application,
