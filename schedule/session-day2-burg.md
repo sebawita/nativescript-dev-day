@@ -4,7 +4,7 @@ title: "Build Once, Deploy to Many"
 speaker-last-name: Burg
 type: Talk
 day: 2
-start-time: "16:50"
+start-time: "16:25"
 short-description: "Deliver multiple (distinct) apps from single code base with NativeScript."
 ---
 
