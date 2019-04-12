@@ -13,4 +13,4 @@ website: ""
 hide: false
 ---
 
-For the past 15 years, Sherry has worked with a variety of web technologies and is currently focused on Angular. She lives in beautiful Copenhagen, where she works as a front-end lead developer at Nordea bank. Apart from her everyday job, she is a co-organizer of the ngVikings conference, as well as some Meetups groups, such as ngCopenhagen and GDG Copenhagen. She loves animals and supports various non-profit animal protection organizations.
+For the past 15 years, Sherry has worked with a variety of web technologies and is currently focused on Angular. She lives in beautiful Copenhagen, where she works as Azure Developer Technical Lead at Microsoft. Apart from her everyday job, she is a co-organizer of the ngVikings conference, as well as some Meetups groups, such as ngCopenhagen and GDG Copenhagen. She loves animals and supports various non-profit animal protection organizations.
